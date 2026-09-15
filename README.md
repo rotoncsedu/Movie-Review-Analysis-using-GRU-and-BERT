@@ -10,7 +10,6 @@ Send it a review, get back both verdicts.
 [![FastAPI](https://img.shields.io/badge/FastAPI-⚡-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-GRU%20%2B%20BERT-EE4C2C?logo=pytorch&logoColor=white)](https://pytorch.org/)
 [![Transformers](https://img.shields.io/badge/🤗%20Transformers-DistilBERT-FFD21E)](https://huggingface.co/docs/transformers)
-[![License](https://img.shields.io/badge/License-MIT-lightgrey)](#)
 
 </div>
 
@@ -218,6 +217,24 @@ sentiment-api/
     ├── bert_model.pt          # Fine-tuned BERT weights
     └── tokenizer/              # Saved HF tokenizer files
 ```
+
+---
+
+## 👤 Author
+
+<table>
+<tr>
+<td>
+
+### Md. Al Imran
+**Programmer**
+Begum Rokeya University, Rangpur, Bangladesh
+
+</td>
+</tr>
+</table>
+
+---
 
 <div align="center">
 

@@ -1,0 +1,6 @@
+{
+    "checkpoint": "distilbert-base-uncased",
+    "num_classes": 2,
+    "dropout": 0.3,
+    "max_length": 256
+}
