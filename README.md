@@ -133,24 +133,26 @@ curl -X POST "http://127.0.0.1:8000/predict" \
 
 ---
 
-## 🖥️ Swagger UI (`/docs`)
+## 🖥️ Try It Out
 
-FastAPI auto-generates interactive API docs at `/docs`, where you can try out `/predict` directly from the browser and see both models' verdicts in one response.
+The API itself is testable directly at `/docs` (FastAPI's auto-generated Swagger UI), where you can send raw requests and inspect the JSON response.
+
+For a friendlier experience, `index.html` provides a standalone web page that calls `/predict` and displays **both models' verdicts side by side**.
 
 <div align="center">
 
 **✅ Easy Positive prediction**
 
-<img src="screenshots/1.png" alt="Swagger UI - positive prediction" width="480">
+<img src="screenshots/1.png" alt="UI - positive prediction" width="480">
 
 **❌ Easy Negative prediction**
 
-<img src="screenshots/2.png" alt="Swagger UI - negative prediction" width="480">
+<img src="screenshots/2.png" alt="UI - negative prediction" width="480">
 
 **🧩 Hard example predictions — GRU vs BERT**
 
-<img src="screenshots/3.png" alt="Swagger UI - hard example 1" width="480">
-<img src="screenshots/4.png" alt="Swagger UI - hard example 2" width="480">
+<img src="screenshots/3.png" alt="UI - hard example 1" width="480">
+<img src="screenshots/4.png" alt="UI - hard example 2" width="480">
 
 </div>
 
